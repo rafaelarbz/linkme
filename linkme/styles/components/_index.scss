@@ -1,0 +1,49 @@
+@import './variables';
+
+.user-item {
+    color: $pink;
+}
+
+#title-welcome {
+    font-family: $font;
+    color: $black;
+}
+#text-welcome {
+    font-family: $font;
+    color: $black;
+}
+
+pink {
+    color: $pink;
+    font-weight: 600;
+}
+
+#link-register {
+    color: $pink;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover {
+        color: $purple;
+    }
+}
+
+#card-index {
+    outline: solid 1px $pink;
+}
+
+#btn-login {
+    color: $pink;
+    outline: solid 2px $pink;
+    &:hover {
+        color: $white;
+        outline: none;
+        background-color: $pink;
+    }
+}
+
+.error-index {
+    font-family: $font;
+    font-size: $font-size - 2.3;
+    font-weight: 600;
+    color: $pink;
+}

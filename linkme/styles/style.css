@@ -1,0 +1,360 @@
+.navbar {
+  background-color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: solid 1px #E384FF;
+}
+
+a.navbar-brand {
+  color: #E384FF;
+  font-weight: 600;
+}
+a.navbar-brand:hover {
+  color: #E384FF;
+}
+
+a.nav-link, button.nav-link {
+  color: #E384FF;
+  font-weight: 600;
+}
+a.nav-link:hover, a.nav-link:focus, button.nav-link:hover, button.nav-link:focus {
+  color: #E384FF;
+  border-bottom: solid 1px #E384FF;
+}
+
+button.navbar-toggler {
+  color: #E384FF;
+}
+
+button.nav-link {
+  border: none;
+  background: none;
+}
+
+footer#footer-clean {
+  font-family: "Montserrat", sans-serif;
+}
+
+.item-icon {
+  color: #E384FF;
+}
+.item-icon:hover {
+  color: #865DFF;
+}
+
+#img-404 {
+  background: url("../images/404.png") center/cover;
+  height: 500px;
+}
+
+.body-404 {
+  background-color: #191825;
+}
+
+#text-404 {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#btn-404-home {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+#btn-404-home:hover {
+  border-bottom: solid 1px #FFFFFF;
+}
+
+.user-item {
+  color: #E384FF;
+}
+
+#title-welcome {
+  font-family: "Montserrat", sans-serif;
+  color: #191825;
+}
+
+#text-welcome {
+  font-family: "Montserrat", sans-serif;
+  color: #191825;
+}
+
+pink {
+  color: #E384FF;
+  font-weight: 600;
+}
+
+#link-register {
+  color: #E384FF;
+  font-weight: 600;
+  text-decoration: none;
+}
+#link-register:hover {
+  color: #865DFF;
+}
+
+#card-index {
+  outline: solid 1px #E384FF;
+}
+
+#btn-login {
+  color: #E384FF;
+  outline: solid 2px #E384FF;
+}
+#btn-login:hover {
+  color: #FFFFFF;
+  outline: none;
+  background-color: #E384FF;
+}
+
+.error-index {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #E384FF;
+}
+
+#title-register {
+  font-family: "Montserrat", sans-serif;
+  color: #191825;
+}
+
+#text-register {
+  font-family: "Montserrat", sans-serif;
+  color: #191825;
+}
+
+#card-register {
+  outline: solid 1px #E384FF;
+}
+
+#link-login {
+  color: #E384FF;
+  font-weight: 600;
+  text-decoration: none;
+}
+#link-login:hover {
+  color: #865DFF;
+}
+
+#btn-save {
+  color: #E384FF;
+  outline: solid 2px #E384FF;
+}
+#btn-save:hover {
+  color: #FFFFFF;
+  outline: none;
+  background-color: #E384FF;
+}
+
+p.text-message {
+  color: #E384FF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.error-register {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #E384FF;
+}
+
+#formStart {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-start {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #E384FF;
+}
+.btn-start:hover {
+  color: #865DFF;
+}
+
+h3#title-edit {
+  font-family: "Montserrat", sans-serif;
+  color: #E384FF;
+  font-weight: 600;
+}
+
+button.square-example {
+  background: #E384FF;
+  padding: 0.6em 1.3em;
+  font-weight: 600;
+  border: 3px solid #191825;
+  border-radius: 0px;
+  box-shadow: 0.3em 0.3em;
+}
+button.square-example:hover {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+button.square-example:active {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button.rounded-example {
+  background: #E384FF;
+  padding: 0.6em 1.3em;
+  font-weight: 600;
+  border: 3px solid #191825;
+  border-radius: 12px;
+  box-shadow: 0.3em 0.3em;
+}
+button.rounded-example:hover {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+button.rounded-example:active {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+input.form-control, select.form-select {
+  border: solid 1px #E384FF;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-btn {
+  outline: solid 1px #E384FF;
+}
+
+input.form-check-input:checked {
+  background-color: #865DFF;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  color: #865DFF;
+  font-weight: 600;
+}
+
+button#btn-save-link, button.btn-delete-link {
+  background-color: #E384FF;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-left: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  font-size: 1.1rem;
+}
+button#btn-save-link:hover, button.btn-delete-link:hover {
+  background-color: #865DFF;
+}
+
+button#btn-edit-account {
+  background-color: #E384FF;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  font-size: 1.1rem;
+}
+button#btn-edit-account:hover {
+  background-color: #865DFF;
+}
+
+h5#text-active-links {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #E384FF;
+}
+
+h6#no-links {
+  color: #865DFF;
+  font-family: "Montserrat", sans-serif;
+}
+
+button.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+.div-confirm-delete {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 60px #d9d9d9;
+}
+.div-confirm-delete button.btn-delete-link {
+  margin-bottom: 10px;
+}
+
+.error-account {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #E384FF;
+}
+
+div#preview {
+  border-radius: 30px;
+  box-shadow: 30px 30px 60px #d9d9d9;
+  border-top: solid 10px #191825;
+  border-left: solid 10px #191825;
+  border-right: solid 10px #191825;
+  border-bottom: solid 40px #191825;
+  height: 550px;
+  width: 270px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #191825;
+  border-top-right-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-top-right-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}
+
+a.square {
+  padding: 0.6em 1.3em;
+  font-weight: 600;
+  border-radius: 0px;
+  box-shadow: 0.3em 0.3em;
+  text-decoration: none;
+  width: 100%;
+}
+a.square:hover {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+a.square:active {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+a.rounded {
+  padding: 0.6em 1.3em;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 0.3em 0.3em;
+  text-decoration: none;
+  width: 100%;
+}
+a.rounded:hover {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+a.rounded:active {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}/*# sourceMappingURL=style.css.map */

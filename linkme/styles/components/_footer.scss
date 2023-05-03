@@ -1,0 +1,12 @@
+@import './variables';
+
+footer#footer-clean {
+    font-family: $font;
+}
+
+.item-icon {
+    color: $pink;
+    &:hover {
+        color: $purple;
+    }
+}

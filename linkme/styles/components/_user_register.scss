@@ -1,0 +1,48 @@
+@import './variables';
+
+#title-register {
+    font-family: $font;
+    color: $black;
+}
+
+#text-register {
+    font-family: $font;
+    color: $black;
+}
+
+#card-register {
+    outline: solid 1px $pink;
+}
+
+#link-login {
+    color: $pink;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover {
+        color: $purple;
+    }
+}
+
+#btn-save {
+    color: $pink;
+    outline: solid 2px $pink;
+    &:hover {
+        color: $white;
+        outline: none;
+        background-color: $pink;
+    }
+}
+
+p.text-message {
+    color: $pink;
+    font-family: $font;
+    font-size: $font-size - 2.3;
+    font-weight: 600;
+}
+
+.error-register {
+    font-family: $font;
+    font-size: $font-size - 2.3;
+    font-weight: 600;
+    color: $pink;
+}
